@@ -1,11 +1,12 @@
 Requirements, Notes and Installment guide:
-
+-------------------------------------------------------------
 
 
 
 Requirements:
 
 
+-------------------------------------------------------------
 
  -An SQL server (MySql - phpmyadmin wampserver was used to create this application)
  
@@ -15,11 +16,13 @@ Requirements:
  
  -An IDE or a way to compile the source code and create a .war file(Netbeans 8.2 was used to create this application)
  
+-------------------------------------------------------------
  
  
  
 Notes:
 
+-------------------------------------------------------------
 
 
 
@@ -31,11 +34,13 @@ https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeac
  -Node js. Download page : https://nodejs.org/en/download/ 
 
 
+-------------------------------------------------------------
 
 
 Installment guide:
 
 
+-------------------------------------------------------------
 
 (Only tested on MySql - phpmyadmin wampserver application). 
 
@@ -43,6 +48,7 @@ Installment guide:
 
 -tododb.sql file contains all of the tables.
 
+-------------------------------------------------------------
 
 
 
@@ -52,6 +58,7 @@ Installment guide:
 -index.js file client in todoclientside has a variable named api. This variable should match the todoServiceSide url.
 
 
+-------------------------------------------------------------
 
 
 -Once node js is downloaded and installed run 'npm install npm --global' on cmd to update if necessary.
