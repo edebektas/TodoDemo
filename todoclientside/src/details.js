@@ -214,6 +214,7 @@ class Detail extends Component {
     
     handleBack(evt){
         evt.preventDefault();  
+        localStorage.setItem("listid", 0)
         this.setState({
           redirect: true
         });

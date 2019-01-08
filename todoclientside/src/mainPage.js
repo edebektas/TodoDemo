@@ -151,6 +151,7 @@ class MainPage extends Component {
     handlelogout(evt){
         evt.preventDefault();
         localStorage.setItem("userId", 0)
+        localStorage.setItem("listid", 0)
         this.setState({logout : true})
     }
     

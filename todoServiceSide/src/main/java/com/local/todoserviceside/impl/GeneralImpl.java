@@ -114,6 +114,8 @@ public class GeneralImpl {
     public String addToDo(Integer listId, String name, String detail, Date dueDate, String dependantTodoId){
         if(listId == null){
             return "List cant be empty";
+        }else if(tlImpl.findById(listId) == null){
+            return "List not found";
         }else if(name == null || name.isEmpty()){
             return "Name cant be empty";
         }else if(detail == null || detail.isEmpty()){
