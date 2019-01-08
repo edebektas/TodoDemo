@@ -1,0 +1,184 @@
+.html{
+    background-color: white;
+    margin-left: -10px;
+    margin-top: -10px;
+    height: inherit;
+    width: inherit;
+    background-image: url('https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+
+.htmlDetail{
+    background-color: white;
+    margin-left: -10px;
+    margin-top: -10px;
+    height: 990px;
+    width: inherit;
+    background-image: url('https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+}
+
+.LoginLabel{
+    color: #663333;
+}
+
+.updateTodoNameLabel{
+    color: #663333;
+    margin-right: 10px;
+}
+
+.updateTodoItemNameLabel{
+    color: #663333;
+    margin-right: 117px;
+}
+
+.updateTodoItemDetailLabel{
+    color: #663333;
+    margin-right: 117px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.updateTodoItemDueDateLabel{
+    color: #663333;
+    margin-right: 96px;
+}
+
+.Login{
+    margin-left: 500px;
+    padding-top: 200px;
+    padding-bottom: 100%;
+}
+
+.logoutButton{
+    margin-top: 10px;
+    margin-left: 200px;
+    height: 25px;
+    background-color: darkgray;
+    border-color: gray;
+}
+
+.namearea{
+    margin-left: 10px;
+    background-color: turquoise;
+}
+
+.registernamearea{
+    margin-left: 67px;
+    background-color: turquoise;
+}
+
+.passwordarea{
+    margin-left: 21px;
+    margin-top: 10px;
+    background-color: turquoise;
+}
+
+.registerpasswordarea{
+    margin-left: 78px;
+    margin-top: 10px;
+    background-color: turquoise;
+}
+
+.loginbutton{
+    margin-top: 10px;
+    height: 25px;    
+    margin-left: 190px;
+    position: absolute;
+    background-color: darkgray;
+    border-color: gray;
+}
+
+.signupbutton{
+    margin-top: 10px;
+    height: 25px;    
+    margin-left: 82px;
+    position: absolute;
+    background-color: darkgray;
+    border-color: gray;
+}
+
+.addtodolistarea{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: turquoise;
+}
+
+.detail{
+    background-color: turquoise;
+    resize: none;
+    width: 153px;
+    margin-left: 156px;
+}
+
+.updatetodolistbutton{
+    margin-left: 92px;
+    height: 25px;
+    background-color: darkgray;
+    border-color: gray;
+}
+
+.addtodolistbutton{
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 25px;
+    background-color: darkgray;
+    border-color: gray;
+}
+
+.addtodobutton{
+    margin-top: 10px;
+    margin-left: 225px;
+    height: 25px;
+    background-color: darkgray;
+    border-color: gray;
+}
+
+.deletetodolistbutton{
+    margin-top: 10px;
+    height: 25px;
+    background-color: darkgray;
+    border-color: gray;
+}
+
+.detailtodolistbutton{
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 25px;
+    background-color: darkgray;
+    border-color: gray;
+}
+
+.registerbutton{
+    margin-top: 10px;
+    margin-left: 96px;
+    height: 25px;
+    background-color: darkgray;
+    border-color: gray;
+}
+
+.xButton{
+    font-size: 10px;
+    border-color: darkturquoise;
+    background-color: turquoise;
+}
+
+.main{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 750px;
+    height: -webkit-fill-available;
+}
+
+.whiteBg{
+    background-color: white;
+}
+
+.updateTodoDiv{
+    background-color: white;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: fit-content;
+}
+
