@@ -1,4 +1,5 @@
 Requirements, installment guide and notes:
+
  Used MySql - phpmyadmin but any db probably would be fine (Only tested on MySql - phpmyadmin wampserver application). 
 But persistence file in todoServiceSide project should be changed to match the database.
  tododb.sql file contains all the tables in sql format.
