@@ -271,7 +271,7 @@ class Detail extends Component {
                             <label className="updateTodoNameLabel" >Dependant Todo Name</label>
                             <input className="addtodolistarea"  data-test="newdependantname" value={this.state.newdependantname} onChange={this.handlenewdependantnamechange} />
                         </div>
-                            <button className="addtodobutton" onClick={this.handleAlternate}>Add TodoList</button>
+                            <button className="addtodobutton" onClick={this.handleAlternate}>Add Todo Item</button>
 
                         </div>
                         {
