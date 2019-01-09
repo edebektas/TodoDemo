@@ -187,6 +187,13 @@ public class GeneralImpl {
             todo.setName(name);
             todo.setDetail(detail);
             todo.setDueDate(dueDate);
+            List<Todo> list = tImpl.findByListId(upd.getListId());
+            for(Todo t : list){
+                if(t.getDependedTodoId() != null && t.getDependedTodoId().equals(upd.getName())){
+                    t.setDependedTodoId(name);
+                    tImpl.merge(t);
+                }
+            }
             tImpl.merge(todo);
             return "success";
         }
