@@ -208,6 +208,10 @@ class Detail extends Component {
             this.setState({
             updatedependantname: rowinfo.row.dependedTodoId
         });
+        }else{
+            this.setState({
+                updatedependantname: ""
+            });
         }
     }
     
@@ -371,7 +375,7 @@ class Detail extends Component {
                                     <label className="updateTodoNameLabel" >Dependant Todo Name</label>
                                     <input className="addtodolistarea"  data-test="updatedependantname" value={this.state.updatedependantname} onChange={this.handleupdatedependantnamechange} />
                                 </div>
-                                    <button className="addtodobutton" onClick={this.handleupdate}>Update TodoList</button>
+                                    <button className="addtodobutton" onClick={this.handleupdate}>Update Todo Item</button>
                                 </div>
                         }
                     </form>
